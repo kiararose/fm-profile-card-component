@@ -47,7 +47,7 @@ body {
     align-items: center;
     width: 350px;
     min-height: 350px;
-    margin: 100px auto;
+    margin: 150px auto;
     background: white;
     border-radius: 4%;
     overflow: hidden;
@@ -144,6 +144,10 @@ body {
 }
 
 @media (max-width: 375px) {
+    .profile-card {
+        margin: 100px auto;
+    }
+    
     .background-top {
         bottom: 167px;
         right: 225px;
